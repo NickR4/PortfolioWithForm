@@ -1,0 +1,124 @@
+body {
+  background-image: url('Images/Mountain.jpg');
+  background-attachment: fixed;
+  width:99%;
+  height: 99%;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+
+
+
+.box
+{
+flex: 1;
+text-align:center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgba(130, 131, 130, 0.75);  
+font-size: 20px;
+border-radius:25px;
+font-weight:bold;
+}
+
+.boxtwo{
+flex:2;
+text-align:center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgba(130, 131, 130, 0.75);  
+font-size: 20px;
+border-radius:25px;
+font-weight:bold;
+}
+
+.logo{
+  width:200px;
+}
+
+.logobox{
+  flex: 1;
+  background-color:rgba(130, 131, 130, 0.50);  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size:18px;
+  border:2px;
+  border-color: black;
+  border-radius:25px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  
+}
+}
+p{
+  margin:5px;
+  font-size:25px;
+  color: white
+}
+
+a{
+  color: darkblue;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.centertext {
+  margin: auto;
+  width: 50%;
+  padding: center;
+}
+h1{
+  background-color:aliceblue;
+  border-radius:25px;
+  text-align:center;
+}
+h2{
+  background-color:aliceblue;
+  border-radius:25px;
+  text-align:center;
+}
+form input{
+  width:90%;
+  padding:5px;
+}
+
+form textarea{
+  height: 70px;
+  width: 90%
+}
+.opacity{
+  background-attachment: fixed;opacity:50%;
+}
+@media all and (min-width:800px){
+.container{
+flex-direction:row;
+padding:5px;
+}
+.box, .boxtwo{
+ padding: 5px;
+  text-align:left;
+  margin: 5px;
+}
+
+
+.center{
+  align-content: center;
+}
+
+}
