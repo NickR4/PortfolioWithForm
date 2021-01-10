@@ -5,26 +5,23 @@ body {
   height: 99%;
 }
 
-.container
-{
+.container {
   display: flex;
   flex-direction: column;
-  
-  
 }
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 80%;
   height: auto;
   text-align: center;
 }
 
 
 
-.box
-{
+.box{
 flex: 1;
 text-align:center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,6 +29,7 @@ background-color: rgba(130, 131, 130, 0.75);
 font-size: 20px;
 border-radius:25px;
 font-weight:bold;
+margin:5%;
 }
 
 .boxtwo{
@@ -42,6 +40,7 @@ background-color: rgba(130, 131, 130, 0.75);
 font-size: 20px;
 border-radius:25px;
 font-weight:bold;
+margin:5%;
 }
 
 .logo{
@@ -60,18 +59,16 @@ font-weight:bold;
   border:2px;
   border-color: black;
   border-radius:25px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
 
-  
-}
-}
-p{
+p {
   margin:5px;
   font-size:25px;
   color: white
 }
 
-a{
+a {
   color: darkblue;
   font-size: 30px;
   text-align: center;
@@ -83,11 +80,13 @@ a{
   width: 50%;
   padding: center;
 }
+
 h1{
   background-color:aliceblue;
   border-radius:25px;
   text-align:center;
 }
+
 h2{
   background-color:aliceblue;
   border-radius:25px;
@@ -102,9 +101,11 @@ form textarea{
   height: 70px;
   width: 90%
 }
+
 .opacity{
   background-attachment: fixed;opacity:50%;
 }
+
 @media all and (min-width:800px){
 .container{
 flex-direction:row;
